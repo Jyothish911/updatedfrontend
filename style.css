@@ -1,0 +1,74 @@
+body{
+    background: #E0F2F1;
+}
+header{
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    padding:0.4rem;
+}
+h1{
+    color: #00695c;
+}
+.deleteAll{
+    color: red;
+    border: none;
+    border-radius: 12px;
+    font-size: 22px;
+    font-weight: 400;
+    border: 1px solid #00695c;
+    cursor: pointer;
+    padding: 0rem 2rem;
+}
+.noteslist{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.note{
+    background: white;
+    border: 1px solid darkcyan;
+    border-radius: 12px;
+    padding: 1rem;
+    margin:1rem;
+}
+.note button{
+    background: #00695c;
+    color: white;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    padding: 0.8rem 2rem;
+    margin: 0.8rem 0.8rem;
+    border-radius: 12px;
+}
+.createNote{
+    background: white;
+    border: 1px solid;
+    border-radius: 12px;
+    padding: 1rem;
+    width: 40vw;
+}
+input, textarea{
+    display: block;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #00695c;
+}
+.createButton{
+    background: #df9937;
+    color: white;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    padding: 0.8rem 2rem;
+    margin: 0.8rem 0;
+    border-radius: 12px;
+}
+h2{
+    margin: 1rem;
+}
+.radio-group{
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}

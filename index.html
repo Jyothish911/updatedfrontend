@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Cricket Players List</h1>
+        <button class="deleteAll">Delete All Notes</button>
+    </header>
+
+    <section class="noteslist">
+
+        <!-- <div class="note">
+            <h4>Note title</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et dolorem unde corrupti consequuntur. Impedit fugiat atque quasi porro quia architecto magni dignissimos ad mollitia maxime?</p>
+            <button>Delete Note</button>
+        </div>
+
+        <div class="note">
+            <h4>Note title</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et dolorem unde corrupti consequuntur. Impedit fugiat atque quasi porro quia architecto magni dignissimos ad mollitia maxime?</p>
+            <button>Delete Note</button>
+        </div>
+
+        <div class="note">
+            <h4>Note title</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et dolorem unde corrupti consequuntur. Impedit fugiat atque quasi porro quia architecto magni dignissimos ad mollitia maxime?</p>
+            <button>Delete Note</button>
+        </div>
+
+        <div class="note">
+            <h4>Note title</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et dolorem unde corrupti consequuntur. Impedit fugiat atque quasi porro quia architecto magni dignissimos ad mollitia maxime?</p>
+            <button>Delete Note</button>
+        </div> -->
+
+        
+        
+
+
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>Create new  note</h2>
+
+        <div class="createNote">
+
+            <form action="">
+                First Name:<input type="text" id="first_name" name="firtst_name" placeholder="Enter first name"><br>
+                <br>
+                Last Name:<input type="text" id="last_name" name="last_name" placeholder="Enter last name"><br>
+                <br>
+                Email:<input type="email" id="email" name="email" placeholder="Enter email id"><br>
+                <br>
+                Mobile:<input type="number" id="mobile" name="mobile" placeholder="Enter mobile number" required/><br>
+                <br>
+                <div>
+                    <label for="role">Role:</label>
+                    <select id = "role" name="role">
+                        <option value="Batsman"> Batsman </option>
+                        <option value="Bowler"> Bowler </option>
+                        <option value="Allrounder"> Allrounder </option>
+                    </select>
+                </div>
+                <br>
+                <br>
+
+                <div class="radio-group">
+                    <label>Is player ready to play?</label>  
+                    <input type="radio" id="role_yes" name="availability" value="yes"> Yes 
+                    <input type="radio" id="role_no" name="availability" value="no"> No
+                </div>
+                <br>
+
+            </form>
+
+            <p id="warning_msg" style="color: red;"> </p>
+
+            <!-- <input type="text" id="createNoteTitle" placeholder="Enter note title">
+            <textarea name="" id="content" cols="30" rows="10"></textarea> -->
+        </div>
+
+        <button class="createButton"> Add Player</button>
+    </section>
+
+
+    <script type="module" src="main.js"></script>
+    <!-- <script src="node_modules/axios/dist/axios.min.js"></script> -->
+</body>
+</html>
